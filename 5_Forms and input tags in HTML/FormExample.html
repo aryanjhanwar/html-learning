@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fill This Form</h1>
+    <form action="/submit.php" method="post">
+        <div>
+            <input type="text" name="Username" placeholder="Enter Your Username">
+        </div>
+
+        <!-- RadioButtons -->
+        <br>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <!-- CheckBoxs -->
+        <br>
+        <input type="checkbox" id="Gamer" name="Profession" value="Gamer">
+        <label for="Profession">Gamer</label>
+        <input type="checkbox" id="Coder" name="Profession" value="Coder">
+        <label for="Profession">Coder</label>
+
+        <!-- TextArea -->
+         <div>
+            <label for="Comment">Enter Your Comment</label>
+            <textarea name="comment" id="Comment" rows="4" cols="50" placeholder="Enter Your Comment"></textarea>
+        </div>
+
+        <!-- Select Element Tag -->
+         <div>
+            <select name="fruits">
+                <option value="Banana">Banana</option>
+                <option value="Banana">Mango</option>
+                <option value="Banana">Cherry</option>
+            </select>
+         </div>
+         
+    </form>
+</body>
+
+</html>
